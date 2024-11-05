@@ -1,0 +1,285 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+img{
+    max-width: 100%;
+}
+
+header{
+    background-image: url(../images/dawn.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    padding: 0 5% 0 5%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.863);
+    background-blend-mode: multiply;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 5%;
+    right: 5%;
+}
+.logo{}
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+}
+.logo a h5{
+    font-weight: 600;
+}
+.logo a h5 span{
+    font-weight: 100;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 0 0 15px;
+}
+
+
+/*.... banner section.... */
+
+
+.banner{
+    text-align: center;
+    padding: 50px 0 100px 0;
+}
+.banner h4{
+    font-size: 25px;
+    font-style: italic;
+    margin: 250px 0 10px 0;
+}
+.banner span{}
+.banner h1{
+    font-size: 70px;
+}
+.banner button{
+    background: red;
+    border: 1px solid red;
+    padding: 15px 30px;
+    border-radius: 35px;  
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: all 0.3s linear;
+}
+
+.banner button:hover{
+    background: rgba(255, 0, 0, 0);
+    letter-spacing: 3px;
+    
+    
+}
+
+
+
+
+.coffee-line{
+    height: 5px;
+    width: 172px;
+    display: inline-block;
+    background: red;
+    border-radius: 5px;
+}
+.coffees{
+    margin: 50px 0 10px 0;
+
+}
+
+
+
+/*.... UPCOMING EVENTS.... */
+
+
+
+.event-main{
+    padding: 50PX 14%;
+    text-align: center;
+}
+.event-main h3{
+    font-size: 40px;
+    
+}
+.event-main span{}
+.event{
+    display: flex;
+    margin: 20px 0 0 0;
+}
+.event-item{
+    width: 50%;
+    margin: 20PX;
+  
+}
+.event-item img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.event-item h5{
+    font-size: 20PX;
+    margin: 10PX 0 0 0;
+}
+.event-item p{}
+.event-item a{
+    color: red;
+    letter-spacing: 3PX;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/*....EXPLORE THE WORLD.... */
+
+
+
+
+
+
+.explor{
+    background-image: url(../images/father.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    background-color:rgba(0, 0, 255, 0.416);
+    background-blend-mode: multiply;
+    padding: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+.explor_item{
+    width: 50%;
+}
+.explor_item h1{
+    font-size: 70px;
+    margin: 40px 0 0 0;
+}
+.explor_item p{
+    margin: 30px 0 30px 0;
+
+}
+.explor_item a{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/*....Tour section.... */
+
+
+.tour-main{
+    padding: 5%;
+}
+.tour{
+    display: flex;
+    justify-content: space-between;
+}
+.tour-item{
+    width: 31%;
+    padding: 15px;
+}
+.tour-item h3{
+    font-size: 30px;
+    margin: 0 0 0 0;
+}
+.tour-item p{
+    margin:30px 0 30px 0;
+
+}
+.tour-item a{
+    text-decoration: none;
+    color: red;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.tour-item img{}
+
+
+
+.image-one{
+ height: 280px;
+ object-fit: cover;
+ margin: 0 0 25px 0;
+}
+
+.image-two{
+    height: 370px;
+    object-fit: cover;
+    margin: 0 0 25px 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*....footer.... */
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 100px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .social-icons {
+    margin-bottom: 5px;
+  }
+  
+  .social-icons i {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 34px;
+  }
+  
+  p {
+    font-size: 24px;
+  }

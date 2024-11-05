@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+
+
+.container {
+    font-family: Arial, sans-serif;
+    
+    
+    justify-content: center;
+    align-items: center;
+    padding: 5% 5% 5% 5%;
+
+
+
+
+    width: 100%;
+    max-width: 500px;
+    
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .ubione{
+    font-size: 50px;
+    padding: 5% 5% 5% 5%;
+
+  }
+  .immuneone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 5% 5% 5%;
+    background-image: url(../images/thumb-1920-1346578.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+
+    background-color: rgba(0, 0, 0, 0.297);
+    background-blend-mode: multiply;
+  }
+  .omgone{
+    margin-bottom: 100px;
+  }
+
+
+
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
