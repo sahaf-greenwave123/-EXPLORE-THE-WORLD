@@ -11,8 +11,9 @@ body {
 .container {
     font-family: Arial, sans-serif;
     
-    
-    justify-content: center;
+    display: flex;
+    justify-content: center; 
+    margin: 5% 0 5% 25%;
     align-items: center;
     padding: 5% 5% 5% 5%;
 
@@ -29,11 +30,11 @@ body {
   .ubione{
     font-size: 50px;
     padding: 5% 5% 5% 5%;
+    
 
   }
   .immuneone{
-    display: flex;
-    justify-content: center;
+   
     align-items: center;
     padding: 5% 5% 5% 5%;
     background-image: url(../images/thumb-1920-1346578.png);
@@ -45,6 +46,10 @@ body {
 
     background-color: rgba(0, 0, 0, 0.297);
     background-blend-mode: multiply;
+  }
+
+  .banana{
+    
   }
   .omgone{
     margin-bottom: 100px;

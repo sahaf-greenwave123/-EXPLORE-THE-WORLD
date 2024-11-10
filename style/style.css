@@ -2,6 +2,7 @@ body{
     margin: 0;
     box-sizing: border-box;
     font-size: 17px;
+    font-family:"Roboto" sans-serif;
 }
 img{
     max-width: 100%;
@@ -119,10 +120,16 @@ nav ul li a{
     
 }
 .event-main span{}
+
+
+
 .event{
     display: flex;
     margin: 20px 0 0 0;
+    
 }
+
+
 .event-item{
     width: 50%;
     margin: 20PX;
@@ -250,7 +257,7 @@ nav ul li a{
 
 
 
-/*....footer.... */
+/*....footer SECTION.... */
 
 
 
@@ -283,3 +290,636 @@ footer {
   p {
     font-size: 24px;
   }
+
+
+
+
+
+
+
+
+
+/*.... media query breakpoints.... */
+
+/*Mobile device Extra small devices (phones, 668px and down) .......1 */
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 355px){
+    .banner h1{
+        font-size: 35px;
+}
+.coffee-line{
+    height: 3px;
+    width: 140px;
+    
+}
+   
+
+    .navbar{
+        display: block;
+        text-align: center;
+    }
+  
+    .logo a{
+      
+        font-size: 18px;
+        display: block;
+        text-align: center;
+        margin: 20px 1px 0 100px;
+    }
+    .logo a h5{
+        margin: 20px 140px 0 0px;
+    }
+   
+    nav ul{
+       text-align: center;
+       padding: 30px 8px 0 8px;
+       
+    }
+    nav ul li a{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 30px 8px 0 8px;
+    }
+
+
+    /*.... banner section.... */
+
+
+    .banner{
+        
+        padding: 1px 0 30px 0;
+    }
+    .banner h4{
+        font-size: 17px;
+       
+        margin: 170px 0 10px 0;
+    }
+    
+    .banner h1{
+        font-size: 30px;
+    }
+    .banner button{
+       
+        padding: 8px 24px;
+       
+        font-size: 18px;
+        letter-spacing: 1px;
+        transition: all 0.3s linear;
+    }
+
+        /*.... UPCOMING EVENTS.... */
+
+
+
+    .event-main{
+        padding: 20PX 2%;
+        
+    }
+    .event-main h3{
+        font-size: 20px;
+        
+    }
+    .event-main span{}
+
+
+
+    .event{
+        display: block;
+        margin: 20px 0 0 0;
+        
+    }
+
+
+    .event-item{
+        width: 95%;
+        margin: 20PX auto;
+    
+    }
+    .event-item img{
+        height: 250px;
+       
+    }
+    .event-item h5{
+        font-size: 18PX;
+        
+    }
+        
+
+
+
+
+
+
+
+        /*....EXPLORE THE WORLD.... */
+
+
+
+
+
+
+    .explor{
+       
+        padding: 10px;
+        
+        display: block;
+       
+
+    }
+    .explor_item{
+        width: 100%;
+    }
+    .explor_item h1{
+        font-size: 40px;
+        margin: 20px 0 0 0;
+    }
+    
+    .explor_item p{
+        margin: 20px 0 20px 0;
+
+    }
+    .explor_item a{
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        color: white;
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+
+
+                    /*....Tour section.... */
+
+
+                    .tour-main{
+                        padding: 2%;
+                    }
+                    .tour{
+                        display: block;
+                       
+                    }
+                    .tour-item{
+                        width: 90%;
+                        padding: 15px;
+                    }
+                    .tour-item h3{
+                        font-size: 20px;
+                        margin: 0 0 0 0;
+                    }
+                    .tour-item p{
+                        margin:30px 0 30px 0;
+
+                    }
+                    .tour-item a{
+                        text-decoration: none;
+                        color: red;
+                        letter-spacing: 1px;
+                        font-size: 20px;
+                        text-transform: capitalize;
+                    }
+                    .tour-item img{}
+
+
+
+                    .image-one{
+                    height: 280px;
+                    object-fit: cover;
+                    margin: 0 0 25px 0;
+                    }
+
+                    .image-two{
+                        height: 370px;
+                        object-fit: cover;
+                        margin: 0 0 25px 0;
+                    }
+
+
+
+
+
+
+
+
+
+
+            
+
+        /*....footer SECTION.... */
+
+
+
+
+
+
+
+
+
+
+
+
+        footer {
+            text-align: center;
+            padding: 100px;
+            background-color: #000;
+            color: #fff;
+        }
+        
+        .social-icons {
+            margin-bottom: 5px;
+        }
+        
+        .social-icons i {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 15px;
+        }
+        
+        p {
+            font-size: 18px;
+            margin: 40px 0 0 0;
+        }
+
+
+
+}
+
+ /* ,,,,,,,,,,,,,,,,,,,,1.2,,,,,,,,,,,,,,,,,,, */ 
+
+
+ @media only screen and (min-width: 356px) and (max-width: 668px){
+    .banner h1{
+        font-size: 35px;
+}
+.coffee-line{
+    height: 3px;
+    width: 140px;
+    
+}
+   
+
+    .navbar{
+        display: block;
+        text-align: center;
+        
+    }
+  
+    .logo a{
+      
+        font-size: 18px;
+        display: block;
+        text-align: center;
+        margin: 20px 1px 0 100px;
+    }
+    .logo a h5{
+        margin: 20px 140px 0 0px;
+    }
+   
+    nav ul{
+       text-align: center;
+       padding: 30px 8px 0 8px;
+       
+       
+       
+    }
+    nav ul li a{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 30px 6px 0 17px;
+        margin: auto;
+    }
+
+
+    /*.... banner section.... */
+
+
+    .banner{
+        
+        padding: 1px 0 30px 0;
+    }
+    .banner h4{
+        font-size: 17px;
+       
+        margin: 170px 0 10px 0;
+    }
+    
+    .banner h1{
+        font-size: 30px;
+    }
+    .banner button{
+       
+        padding: 8px 24px;
+       
+        font-size: 18px;
+        letter-spacing: 1px;
+        transition: all 0.3s linear;
+    }
+            /*.... UPCOMING EVENTS.... */
+
+
+
+            .event-main{
+                padding: 20PX 2%;
+                
+            }
+            .event-main h3{
+                font-size: 20px;
+                
+            }
+            .event-main span{}
+        
+        
+        
+            .event{
+                display: block;
+                margin: 20px 0 0 0;
+                
+            }
+        
+        
+            .event-item{
+                width: 95%;
+                margin: 20PX auto;
+            
+            }
+            .event-item img{
+                height: 250px;
+               
+            }
+            .event-item h5{
+                font-size: 18PX;
+                
+            }
+
+
+            
+        /*....EXPLORE THE WORLD.... */
+
+
+
+
+
+
+    .explor{
+       
+        padding: 10px;
+        
+        display: block;
+       
+
+    }
+    .explor_item{
+        width: 100%;
+    }
+    .explor_item h1{
+        font-size: 40px;
+        margin: 20px 0 0 0;
+    }
+    
+    .explor_item p{
+        margin: 20px 0 20px 0;
+
+    }
+    .explor_item a{
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        color: white;
+        text-decoration: none;
+    }
+    
+                    /*....Tour section.... */
+
+
+                    .tour-main{
+                        padding: 2%;
+                    }
+                    .tour{
+                        display: block;
+                       
+                    }
+                    .tour-item{
+                        width: 90%;
+                        padding: 15px;
+                    }
+                    .tour-item h3{
+                        font-size: 20px;
+                        margin: 0 0 0 0;
+                    }
+                    .tour-item p{
+                        margin:30px 0 30px 0;
+
+                    }
+                    .tour-item a{
+                        text-decoration: none;
+                        color: red;
+                        letter-spacing: 1px;
+                        font-size: 20px;
+                        text-transform: capitalize;
+                    }
+                    .tour-item img{}
+
+
+
+                    .image-one{
+                    height: 280px;
+                    object-fit: cover;
+                    margin: 0 0 25px 0;
+                    }
+
+                    .image-two{
+                        height: 370px;
+                        object-fit: cover;
+                        margin: 0 0 25px 0;
+                    }
+
+
+}
+
+
+
+
+/*...............Landscape mobile tab device..............2 */
+
+
+
+
+@media only screen and (min-width: 669px) and (max-width: 768px){
+    .banner h1{
+        font-size: 40px;
+    }
+            /*.... UPCOMING EVENTS.... */
+
+
+
+            .event-main{
+                padding: 40PX 5%;
+                
+            }
+            .event-main h3{
+                font-size: 25px;
+                
+            }
+            .event-main span{}
+        
+        
+        
+            .event{
+                display: block;
+                margin: 20px 0 0 0;
+                
+            }
+        
+        
+            .event-item{
+                width: 95%;
+                margin: 25PX auto;
+            
+            }
+            .event-item img{
+                height: 350px;
+               
+            }
+            .event-item h5{
+                font-size: 20PX;
+                
+            }
+            
+}
+
+
+
+
+
+
+
+/*..............tab Landscape device....................3*/
+
+
+
+
+
+@media only screen and (min-width: 769px) and (max-width:992px){
+    .banner h1{
+        font-size: 50px;
+    }
+            /*.... UPCOMING EVENTS.... */
+
+
+
+            .event-main{
+                padding: 40PX 5%;
+                
+            }
+            .event-main h3{
+                font-size: 25px;
+                
+            }
+            .event-main span{}
+        
+        
+        
+            .event{
+                display: block;
+                margin: 20px 0 0 0;
+                
+            }
+        
+        
+            .event-item{
+                width: 95%;
+                margin: 25PX auto;
+            
+            }
+            .event-item img{
+                height: 450px;
+               
+            }
+            .event-item h5{
+                font-size: 20PX;
+                
+            }
+}
+
+
+
+
+
+
+
+/*..............small monitor device....................4*/
+
+
+
+
+
+@media only screen and (min-width: 993px) and (max-width:1024px){
+    .event-main h3{
+        font-size: 45px;
+        
+}
+
+.banner h1{
+    font-size: 50px;
+}
+.event-item{
+    width: 49%;
+    margin: 25PX auto;
+
+}
+.event-main{
+    padding: 30PX 5%;
+    
+}
+
+
+
+}
+
+
+
+
+
+/*..............large laptop device....................5*/
+
+
+
+
+
+@media only screen and (min-width: 1025px) and (max-width:1440px){
+    .event-main h3{
+        font-size: 45px;
+        
+}
+
+.banner h1{
+    font-size: 50px;
+}
+.event-item{
+    width: 49%;
+    margin: 25PX auto;
+
+}
+.event-main{
+    padding: 30PX 5%;
+    
+}
+}
+
+
+
+
