@@ -278,7 +278,9 @@ footer {
   }
   
   .social-icons {
+    
     margin-bottom: 5px;
+    margin: 0 10px 0 0;
   }
   
   .social-icons i {
@@ -290,6 +292,8 @@ footer {
   p {
     font-size: 24px;
   }
+  
+ 
 
 
 
@@ -545,13 +549,23 @@ footer {
         .social-icons i {
             color: #fff;
             margin: 0 10px;
-            font-size: 15px;
+            font-size: 13px;
         }
         
         p {
             font-size: 18px;
-            margin: 40px 0 0 0;
+            margin: 40px 0px 0 0;
+            display: block;
         }
+        .statement{
+            display: flex;
+            
+        
+          }
+          .pro{
+            display: block;
+
+          }
 
 
 
@@ -748,7 +762,34 @@ footer {
                     }
 
 
+
+
+
+
+
+
+                    .statement{
+                        display: flex;
+                        
+                    
+                      }
+                      .pro{
+                        display: block;
+            
+                      }
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 
 
